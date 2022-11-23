@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.cbUrgente = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,12 +46,12 @@
             this.cbUrgente.Text = "Urgente?";
             this.cbUrgente.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtPrecio
             // 
-            this.textBox1.Location = new System.Drawing.Point(224, 323);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtPrecio.Location = new System.Drawing.Point(224, 323);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecio.TabIndex = 7;
             // 
             // txtTelegrama
             // 
@@ -95,7 +95,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.cbUrgente);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -110,7 +110,7 @@
         #endregion
 
         private System.Windows.Forms.CheckBox cbUrgente;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.TextBox txtTelegrama;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
